@@ -1,0 +1,7 @@
+- `Client` puts an Op to Op Queue
+- `Reducer`
+  - Gets a record
+  - Checks if it is yet not in Log
+  - Put to log
+  - Sends answer
+- `Client` reads answer
